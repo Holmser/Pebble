@@ -1,8 +1,22 @@
 {
-    "versionLabel": "1.0",
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
     "companyName": "chris@holmser.net",
+    "longName": "Tutorial #2",
     "resources": {
         "media": [
+            {
+                "file": "fonts/Orbit Bold.ttf",
+                "name": "ORBIT_FONT_42",
+                "type": "font"
+            },
+            {
+                "file": "images/sb_trophy.png",
+                "name": "SB_TROPHY",
+                "type": "png"
+            },
             {
                 "file": "images/seahawkslogo.png",
                 "name": "SEAHAWKS_LOGO",
@@ -10,20 +24,17 @@
             },
             {
                 "file": "images/seahawks_icon.png",
+                "menuIcon": true,
                 "name": "MENU_ICON",
                 "type": "png"
             }
         ]
     },
+    "shortName": "Tutorial #2",
     "uuid": "6cccaf6e-466d-4a60-8f13-0dd28494f506",
-    "capabilities": [
-        ""
-    ],
-    "watchapp": {
-        "watchface": false
-    },
-    "appKeys": {},
-    "longName": "Tutorial #2",
     "versionCode": 1,
-    "shortName": "Tutorial #2"
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
 }
