@@ -1,0 +1,29 @@
+{
+    "versionLabel": "1.0",
+    "companyName": "chris@holmser.net",
+    "resources": {
+        "media": [
+            {
+                "file": "images/seahawkslogo.png",
+                "name": "SEAHAWKS_LOGO",
+                "type": "png"
+            },
+            {
+                "file": "images/seahawks_icon.png",
+                "name": "MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "uuid": "6cccaf6e-466d-4a60-8f13-0dd28494f506",
+    "capabilities": [
+        ""
+    ],
+    "watchapp": {
+        "watchface": false
+    },
+    "appKeys": {},
+    "longName": "Tutorial #2",
+    "versionCode": 1,
+    "shortName": "Tutorial #2"
+}
