@@ -8,6 +8,11 @@
     "resources": {
         "media": [
             {
+                "file": "images/feather.png",
+                "name": "FEATHER",
+                "type": "png"
+            },
+            {
                 "file": "fonts/Orbit Bold.ttf",
                 "name": "ORBIT_FONT_42",
                 "type": "font"
