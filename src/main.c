@@ -4,6 +4,8 @@ Window *window;
 TextLayer *text_layer;
 char buffer[] = "00:00";
 InverterLayer *inv_layer;
+GBitmap *seahawks_bitmap;
+BitmapLayer *seahawks_layer;
 
 void tick_handler(struct tm *tick_time, TimeUnits units_changed)
 {
@@ -16,7 +18,8 @@ void tick_handler(struct tm *tick_time, TimeUnits units_changed)
 
 void window_load(Window *window)
 {
-  seahawks_bitmap = gbitmap_create_with_resource(SEAHAWKS_LOGO);
+  seahawks_bitmap = gbitmap_create_with_resource(RESOURCE_ID_SEAHAWKS_LOGO);
+  
   seahawks_layer = bitmap_layer_create(GRect(0,0,144,50));
   bitmap_layer_set_bitmap(seahawks_layer, seahawks_bitmap);
   layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(seahawks_layer));
@@ -48,6 +51,8 @@ void window_unload(Window *window)
   //destroy window elements
   text_layer_destroy(text_layer);
   inverter_layer_destroy(inv_layer);
+  gbitmap_destroy(seahawks_bitmap);
+  bitmap_layer_destroy(seahawks_layer);
 }
 
 
