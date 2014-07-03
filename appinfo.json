@@ -4,9 +4,19 @@
         ""
     ],
     "companyName": "chris@holmser.net",
-    "longName": "Tutorial #2",
+    "longName": "Seahawks",
     "resources": {
         "media": [
+            {
+                "file": "fonts/NFL Seattle Seahawks Pattern.ttf",
+                "name": "SEAHAWKS_PATTERN_50",
+                "type": "font"
+            },
+            {
+                "file": "fonts/NFL Seattle Seahawks Flat.ttf",
+                "name": "SEAHAWKS_FONT_46",
+                "type": "font"
+            },
             {
                 "file": "images/feather.png",
                 "name": "FEATHER",
@@ -35,10 +45,10 @@
             }
         ]
     },
-    "shortName": "Tutorial #2",
+    "shortName": "Seahawks",
     "uuid": "6cccaf6e-466d-4a60-8f13-0dd28494f506",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }
